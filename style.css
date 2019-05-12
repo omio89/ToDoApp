@@ -124,11 +124,26 @@ input[type="text"]:hover
    border: 1px solid #fcfcfc;
    border-radius: 10px;
 }
-.blue
+.aqua
 {
     background-color: rgb(73, 255, 216);
 }
-
+.yellow
+{
+    background-color: rgb(245, 255, 98);
+}
+.red
+{
+    background-color: rgb(255, 93, 93);
+}
+.blue
+{
+    background-color: #2ac1fdf3;
+}
+.green
+{
+    background-color: #43ff7bf3;
+}
 .cross
 {
     float: right;
