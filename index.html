@@ -15,7 +15,7 @@
 
         <div id="app">
             <div id="top">
-                <input type="text" placeholder="Enter Task Name" v-model="msg">
+                <input type="text" placeholder="Enter Task Name" v-model="msg" @keyup.enter="add()">
                 <br>
                 <button id="add" @click="add()" >Add</button>
             </div>
