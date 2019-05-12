@@ -33,7 +33,7 @@
 
 
                 <template v-for="(task,i) in tasks">
-                    <div class="task_format" v-bind:class="{blue:colorBind(i)}">
+                    <div class="task_format" v-bind:class="colorName(i)">
                         {{task}}
                         <button class="cross" @click="remove(task)">x</button>
                     </div>
