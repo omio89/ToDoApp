@@ -32,9 +32,18 @@ new Vue({
         {
             return this.tasks.length == 0;
         },
-        colorBind:function(i)
+        colorName:function(i)
         {
-            return i%2!=0;
+            if(i%5==0)
+                return 'yellow';
+            else if(i%5==1)
+                return 'aqua';
+            else if(i%5==2)
+                return 'red';
+            else if(i%5==3)
+                return 'blue';
+            else
+                return 'green';
         }
     }
 });
