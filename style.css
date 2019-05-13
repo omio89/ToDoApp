@@ -80,7 +80,13 @@ input[type="text"]:hover
     
     outline: none;
 }
-
+input[type="text"]:focus
+{
+    
+    border: 1.5px solid rgb(245, 19, 87);
+    
+    outline: none;
+}
 #add
 {
     outline: none;
